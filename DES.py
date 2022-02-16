@@ -284,7 +284,7 @@ def main():
     round = 1
     #Begins the actual script
     KEY = input("Enter the KEY : ")
-    PT = input("Enter the Plaintext")
+    PT = input("Enter the Plaintext : ")
     verbose = input("Enter a 1 or a 0 :")
     verbose = int(verbose)
     KEY = SubkeyPermute(KEY, verbose)
