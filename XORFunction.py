@@ -19,15 +19,8 @@ def concatinatelisttoprint(list):
     for i in range(0, len(list)):
         print(list[i], end='')
 
-def verbPrintCheck(string, verbose):
-    if (verbose):
-        print(string)
-
 def main():
-    #Variable used to store the round of the Cipher
-    global round
-    round = 1
-    #Begins the actual script
+    #Begins the XOR function calls
     S1 = input("Input 1 : ")
     S2 = input("Input 2 : ")
 
